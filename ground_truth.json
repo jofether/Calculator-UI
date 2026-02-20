@@ -1,0 +1,155 @@
+{
+  "repository": "Calculator UI",
+  "bugs": [
+    {
+      "bug_category": "Typo",
+      "bug_type": "min-height",
+      "file_modified": "src/App.jsx",
+      "line_number": 52,
+      "clean_code": "    <div className=\"min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4 font-mono\">",
+      "buggy_code": "    <div className=\"min-h-scren bg-slate-100 flex items-center justify-center p-4 font-sans\">",
+      "css_selector": ".min-h-scren",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "background-color",
+      "file_modified": "src/App.jsx",
+      "line_number": 46,
+      "clean_code": "  const btnClass = \"bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
+      "buggy_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
+      "css_selector": ".bg-white",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/App.jsx",
+      "line_number": 46,
+      "clean_code": "  const btnClass = \"bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
+      "buggy_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
+      "css_selector": ".p-4",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/App.jsx",
+      "line_number": 47,
+      "clean_code": "  const opClass = \"bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
+      "buggy_code": "  const opClass = \"p-4 rounded-xl text-xl font-bold bg-orange-500 text-white shadow-sm hover:bg-orange-600 active:scale-95\";",
+      "css_selector": ".p-4",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "background-color",
+      "file_modified": "src/App.jsx",
+      "line_number": 52,
+      "clean_code": "    <div className=\"min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center p-4 font-mono\">",
+      "buggy_code": "    <div className=\"min-h-scren bg-slate-100 flex items-center justify-center p-4 font-sans\">",
+      "css_selector": ".bg-slate-100",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "background-color",
+      "file_modified": "src/App.jsx",
+      "line_number": 75,
+      "clean_code": "            <button onClick={handleClear} className={funcClass}>C</button>",
+      "buggy_code": "              <button onClick={handleClear} className=\"col-span-2 p-4 rounded-xl bg-red-100 text-red-600 font-bold hover:bg-red-200\">AC</button>",
+      "css_selector": ".bg-red-100",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/App.jsx",
+      "line_number": 85,
+      "clean_code": "            <button onClick={() => handleNumber(5)} className={btnClass}>5</button>",
+      "buggy_code": "              <button onClick={() => handleNumber(5)} className=\"p-0 rounded-xl text-xl font-bold bg-white text-gray-800 shadow-sm\">5</button>",
+      "css_selector": ".p-0",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "position",
+      "file_modified": "src/App.jsx",
+      "line_number": 91,
+      "clean_code": "            <button onClick={() => handleOperation('+')} className={opClass}>+</button>",
+      "buggy_code": "              <button onClick={() => handleOperation('+')} className=\"absolute top-0 left-0 p-4 bg-orange-500 text-white font-bold\">+</button>",
+      "css_selector": ".absolute",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "text-color",
+      "file_modified": "src/App.jsx",
+      "line_number": 104,
+      "clean_code": "          <button",
+      "buggy_code": "          <button className=\"w-full mt-3 bg-gray-300 tex-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
+      "css_selector": ".tex-gray-900",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/App.jsx",
+      "line_number": 110,
+      "clean_code": "        <div className=\"bg-white p-6 rounded-2xl shadow-2xl w-full md:max-w-sm flex-grow\">",
+      "buggy_code": "        <div className=\"bg-white p-6 rounded-2xl shadow-xl w-full md:flex-grow -z-50 relative\">",
+      "css_selector": ".-z-50",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
