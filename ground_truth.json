@@ -2,6 +2,7 @@
   "repository": "Calculator UI",
   "bugs": [
     {
+      "comment": "Bug #1 - Typo in min-height class",
       "bug_category": "Typo",
       "bug_type": "min-height",
       "file_modified": "src/App.jsx",
@@ -12,11 +13,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 596
       }
     },
     {
+      "comment": "Bug #2 - Button background color (white instead of gray-100)",
       "bug_category": "Color",
       "bug_type": "background-color",
       "file_modified": "src/App.jsx",
@@ -25,13 +27,14 @@
       "buggy_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
       "css_selector": ".bg-white",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 152,
+        "y": 16,
+        "width": 272,
+        "height": 348
       }
     },
     {
+      "comment": "Bug #3 - Button padding (p-4 instead of py-4)",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/App.jsx",
@@ -40,13 +43,14 @@
       "buggy_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
       "css_selector": ".p-4",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 152,
+        "y": 16,
+        "width": 272,
+        "height": 348
       }
     },
     {
+      "comment": "Bug #4 - Operator button padding (p-4 instead of py-4)",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/App.jsx",
@@ -55,13 +59,14 @@
       "buggy_code": "  const opClass = \"p-4 rounded-xl text-xl font-bold bg-orange-500 text-white shadow-sm hover:bg-orange-600 active:scale-95\";",
       "css_selector": ".p-4",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 152,
+        "y": 16,
+        "width": 272,
+        "height": 348
       }
     },
     {
+      "comment": "Bug #5 - Background color (slate-100 instead of dark gradient)",
       "bug_category": "Color",
       "bug_type": "background-color",
       "file_modified": "src/App.jsx",
@@ -72,11 +77,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 596
       }
     },
     {
+      "comment": "Bug #6 - Clear button background color (red-100 instead of funcClass)",
       "bug_category": "Color",
       "bug_type": "background-color",
       "file_modified": "src/App.jsx",
@@ -85,13 +91,14 @@
       "buggy_code": "              <button onClick={handleClear} className=\"col-span-2 p-4 rounded-xl bg-red-100 text-red-600 font-bold hover:bg-red-200\">AC</button>",
       "css_selector": ".bg-red-100",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 152,
+        "y": 16,
+        "width": 130,
+        "height": 60
       }
     },
     {
+      "comment": "Bug #7 - Number button padding (p-0 instead of btnClass)",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/App.jsx",
@@ -100,13 +107,14 @@
       "buggy_code": "              <button onClick={() => handleNumber(5)} className=\"p-0 rounded-xl text-xl font-bold bg-white text-gray-800 shadow-sm\">5</button>",
       "css_selector": ".p-0",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 223,
+        "y": 160,
+        "width": 59,
+        "height": 60
       }
     },
     {
+      "comment": "Bug #8 - Operation button absolute positioning",
       "bug_category": "Layout",
       "bug_type": "position",
       "file_modified": "src/App.jsx",
@@ -115,13 +123,14 @@
       "buggy_code": "              <button onClick={() => handleOperation('+')} className=\"absolute top-0 left-0 p-4 bg-orange-500 text-white font-bold\">+</button>",
       "css_selector": ".absolute",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 128,
+        "y": 16,
+        "width": 43,
+        "height": 56
       }
     },
     {
+      "comment": "Bug #9 - Typo in text-color class (tex-gray-900)",
       "bug_category": "Typo",
       "bug_type": "text-color",
       "file_modified": "src/App.jsx",
@@ -130,13 +139,14 @@
       "buggy_code": "          <button className=\"w-full mt-3 bg-gray-300 tex-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
       "css_selector": ".tex-gray-900",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 128,
+        "y": 400,
+        "width": 320,
+        "height": 44
       }
     },
     {
+      "comment": "Bug #10 - Z-index layering issue (-z-50)",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/App.jsx",
@@ -145,10 +155,10 @@
       "buggy_code": "        <div className=\"bg-white p-6 rounded-2xl shadow-xl w-full md:flex-grow -z-50 relative\">",
       "css_selector": ".-z-50",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 128,
+        "y": 468,
+        "width": 1024,
+        "height": 112
       }
     }
   ]
