@@ -27,7 +27,7 @@
       "line_number": 46,
       "neg_code": "  const btnClass = \"bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
       "pos_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
-      "css_selector": "button:has(:text(\"1\"))",
+      "css_selector": ".grid > button:nth-child(13)",
       "bounding_box": {
         "x": 420,
         "y": 40,
@@ -44,7 +44,7 @@
       "line_number": 46,
       "neg_code": "  const btnClass = \"bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
       "pos_code": "  const btnClass = \"p-4 rounded-xl text-xl font-bold bg-white hover:bg-gray-50 text-gray-800 shadow-sm transition-all active:scale-95\";",
-      "css_selector": "button:has(:text(\"2\"))",
+      "css_selector": ".grid > button:nth-child(14)",
       "bounding_box": {
         "x": 420,
         "y": 40,
@@ -61,7 +61,7 @@
       "line_number": 47,
       "neg_code": "  const opClass = \"bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-lg text-xl shadow-sm active:scale-95 transition-all duration-75 cursor-pointer\";",
       "pos_code": "  const opClass = \"p-4 rounded-xl text-xl font-bold bg-orange-500 text-white shadow-sm hover:bg-orange-600 active:scale-95\";",
-      "css_selector": "button:has(:text(\"-\"))",
+      "css_selector": ".grid > button:nth-child(8)",
       "bounding_box": {
         "x": 420,
         "y": 40,
@@ -112,7 +112,7 @@
       "line_number": 85,
       "neg_code": "            <button onClick={() => handleNumber(5)} className={btnClass}>5</button>",
       "pos_code": "              <button onClick={() => handleNumber(5)} className=\"p-0 rounded-xl text-xl font-bold bg-white text-gray-800 shadow-sm\">5</button>",
-      "css_selector": "button:has(:text(\"5\"))",
+      "css_selector": ".grid > button:nth-child(11)",
       "bounding_box": {
         "x": 420,
         "y": 40,
@@ -129,7 +129,7 @@
       "line_number": 91,
       "neg_code": "            <button onClick={() => handleOperation('+')} className={opClass}>+</button>",
       "pos_code": "              <button onClick={() => handleOperation('+')} className=\"absolute top-0 left-0 p-4 bg-orange-500 text-white font-bold\">+</button>",
-      "css_selector": "button:has(:text(\"+\"))",
+      "css_selector": ".grid > button:nth-child(12)",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -146,7 +146,7 @@
       "line_number": 104,
       "neg_code": "          <button className=\"w-full mt-3 bg-gray-300 text-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
       "pos_code": "          <button className=\"w-full mt-3 bg-gray-300 tex-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
-      "css_selector": "button:has(:text(\"← Backspace\"))",
+      "css_selector": "button:last-of-type",
       "bounding_box": {
         "x": 420,
         "y": 40,
