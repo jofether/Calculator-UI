@@ -144,7 +144,7 @@
       "bug_type": "text-color",
       "file_modified": "src/App.jsx",
       "line_number": 104,
-      "neg_code": "          <button className=\"w-full mt-3 bg-gray-300 text-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
+      "neg_code": "            <button onClick={handleBackspace} className=\"w-full mt-3 bg-gray-300 hover:bg-gray-400 text-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm active:scale-95 transition-all duration-75\">",
       "pos_code": "          <button className=\"w-full mt-3 bg-gray-300 tex-gray-900 font-bold py-3 rounded-lg text-sm shadow-sm\">",
       "css_selector": "button:last-of-type",
       "bounding_box": {
